@@ -1,0 +1,4 @@
+private void viewFile(int NER) {
+    // Récupérer le chemin du fichier correspondant au NER
+    String filePath = getPathByNER(NER);
+    
