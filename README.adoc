@@ -4,27 +4,6 @@ L'objet de ce mini-projet est de développer un https://fr.wikipedia.org/wiki/Ge
 Vous devrez respecter les contraintes fonctionnelles et techniques mentionnées ci-dessous.
 
 [IMPORTANT]
-====
-Vous respecterez les contraintes suivantes:
-
-* Ce mini-projet est à réaliser en Java par groupe de 2 étudiants.
-  - les 2 étudiants doivent coopérer à travers un même git. Un des deux étudiants devra permettre à l'autre d'utiliser son git.
-* Il devra comporter une documentation dans ce git.
-  - La documentation devra décrire l'usage de l'application (_manuel utilisateur_) ainsi que la conception du jeu (_manuel technique_).
-  - La documentation doit être un fichier .md ou .adoc et accessible depuis le `git`
-* Vous utiliserez `git` en effectuant des commits réguliers comportant des messages informatifs. L'usage des "pull requests" est également fortement conseillé, montrant ainsi votre collaboration au sein du groupe. 
-* Le _build_ sera assuré par Maven et plus précisément Maven wrapper (déjà intégré dans le projet).
-Aucune manipulation en dehors de Maven ne devra être nécessaire.
-* La version de Java à utiliser est la https://adoptium.net/[version 17].
-* Le _build_ devra intégrer `checkstyle` pour la vérification des règles de codages Google.
-Le projet devra donc les respecter.
-`checkstyle` devra être exécuté automatiquement durant la phase `validate` du cycle de vie par défaut.
-* Des tests unitaires https://junit.org/junit5/docs/current/user-guide/[JUnit 5] (version https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter/5.9.1[_5.9.1_]) devront être disponibles pour la plupart des méthodes développées.
-* Un outil de https://fr.wikipedia.org/wiki/Couverture_de_code[_Code Coverage_] devra être intégré au _build_
-* Les fonctionnalités du langage Java devront être utilisées au mieux (POO, exceptions, librairie de collections, I/O, …).
-* L'application devra pouvoir être exécutée à partir d'un `jar` incluant toutes les dépendances.
-====
-
 == Description du gestionnaire de fichiers
 * L'interface proposera une visualisation du contenu d'un répertoire en mode texte. A chaque élément du répertoire (**ER**), on associera un numero (**NER**) permettant de le designer lors de l'utilisation d'une des commandes définies ci-dessous.
 
